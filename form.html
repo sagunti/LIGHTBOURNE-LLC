@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos-form.css">
+    <link rel="stylesheet" href="./css/estilos-validar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="nav">
+      <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="#"><img src="img/logo1.png" alt="logo" width="100" 
+              class="d-inline-block align-text-top"></a>
+          </div>
+         
+          <div id="mainListDiv" class="main_list">
+              <ul class="navlinks">
+                  
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</a></li>
+              </ul>
+          </div>
+          <span class="navTrigger">
+              <i></i>
+              <i></i>
+              <i></i>
+          </span>
+      </div>
+  </nav>
+</header>
+
+   <div class="imagenfondo">
+    
+   </div>
+    <div class="subbody">
+    <div class="contacto">
+        <div class="logo">
+            <img src="./img/logo1.png" alt="">
+        </div>
+        <div>
+            <form class="form" action="https://formsubmit.co/sales@lightbourne.biz" method="post">
+            <div class="titulo-contacto">
+                <h2>Contact</h2>
+                <br>
+                <p>Order your spare parts</p>
+            </div>
+                <div class="input-container">
+                    <input  name="nombre" type="text" id="nombreyapellido" class="input" required data-tipo="nombre" placeholder="  Name and Surname" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+
+                <div class="input-container">
+                    <input name="email"type="email" id="correo"class="input"required data-tipo="email" 
+                    placeholder="  email@domain.com">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+
+                <div class="input-container">
+                    <input  name="Empresa" type="text" id="asunto"class="input"required data-tipo="asunto"
+                    placeholder="  Company" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+                <div class="input-container">
+                    <input  name="Marca" type="text" id="asunto"class="input"required data-tipo="marca"
+                    placeholder="  Brand" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+                <div class="input-container">
+                    <input  name="Modelo" type="text" id="asunto"class="input"required data-tipo="Modelo"
+                    placeholder="  Model" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+
+
+                <div class="textarea-container">   
+                    <textarea name="mensaje" id="mensaje" class="textarea" placeholder=" Mensagem" data-tipo="elmensaje" maxlength="300" required></textarea>
+                    <span class="textarea-message-error">Field Invalid</span>
+                </div>
+
+                    <input type="submit" value="Submit"class="enviar">
+                    <input type="hidden" name="_next" value="https://stimaquinas.com/comercial/imagenes/catalogo_sti_01.pdf">
+                    <input type="hidden" name="_captcha" value="false">
+        
+        </form>
+        </div>
+    </div>
+    </div>
+    <script src="./js/app.js" type="module"></script> 
+    <script src="./js/validar-formulario.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
