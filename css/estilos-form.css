@@ -469,10 +469,13 @@ form ::placeholder{
         background-image : url(././/tablet.jpg);
         padding: 20px 0 0 0;
     }
+    .subbody{
+        padding: 0px;
+    }
     .contacto{
         padding: 0;
-        width: 90%;
-        height: 550px;
+        width: 700px;
+        height: 750px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -500,11 +503,11 @@ form ::placeholder{
 
     body {
         background-image : url(./img/phone.jpg);
-        padding: 30px 0 0 0;
+        padding: 0;
     }
     .contacto{
         
-        width: 90%;
+        width: 500px;
         height: 810px;
     }
     .titulo-contacto h2 {
