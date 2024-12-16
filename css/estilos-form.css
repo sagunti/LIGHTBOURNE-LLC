@@ -11,6 +11,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
+    width: auto;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -467,7 +468,7 @@ form ::placeholder{
 @media screen and (max-width:768px){
     body {
         background-image : url(././/tablet.jpg);
-        padding: 20px 0 0 0;
+        padding: 0 0 0 0;
     }
     .subbody{
         padding: 0px;
@@ -500,10 +501,18 @@ form ::placeholder{
 }
 
 @media screen and (max-width:590px){
-
+html{
+    width:max-content;
+}
     body {
         background-image : url(./img/phone.jpg);
         padding: 0;
+    }
+    .nav{
+        width: auto;
+    }
+    .div contacto{
+        width: auto;
     }
     .contacto{
         
