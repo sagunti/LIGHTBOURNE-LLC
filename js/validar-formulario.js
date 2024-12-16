@@ -24,8 +24,16 @@ export function valida(input) {
       valueMissing: "e-mail field cannot be empty",
       typeMismatch: "The email is not valid"
     },
-    asunto:{
+    empresa:{
       valueMissing: "Company field cannot be empty",
+      typeMismatch: "The company is not valid"
+    },
+  
+    marca:{
+      valueMissing: "brand field cannot be empty",
+    },
+    Modelo:{
+      valueMissing: "model field cannot be empty",
     },
     elmensaje:{
       valueMissing: "message field cannot be empty",
@@ -69,7 +77,7 @@ export function valida(input) {
   const mensajesDeErrordos = {
     
     elmensaje:{
-      valueMissing: "Field Invalid",
+      valueMissing: "message field cannot be empty",
     }
   }
   
