@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/estilos-validar.css">
+  <link rel="stylesheet" href="../css/estilos-form.css">
+  <link rel="stylesheet" href="../css/cards.css">
+  <link rel="icon" type="img/logo" href="img/logo-new.png" />
+
+
+  <title>SPARE-PARTS</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <a class="navbar-brand" href="../../index.html"><img src="../img/principal/logo1.png" alt="logo" width="100"
+              class="d-inline-block align-text-top"></a>
+        </div>
+
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+
+            <li><a href="../../index.html#products">Products</a></li>
+            <li><a href="../../index.html#about">About Us</a></li>
+            
+          </ul>
+        </div>
+        <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <section class="home"></section>
+  <div class="subbody">
+    <div class="contacto">
+        <div class="logo">
+            <img src="../img/principal/logo1.png" alt="">
+        </div>
+        <div>
+            <form class="form" action="https://formsubmit.co/sales@lightbourne.biz" method="post">
+            <div class="titulo-contacto">
+                <h2>Contact</h2>
+                <br>
+                <p>Order your spare parts</p>
+            </div>
+                <div class="input-container">
+                    <input  name="nombre" type="text" id="nombreyapellido" class="input" required data-tipo="nombre" placeholder="  Name and Surname" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+
+                <div class="input-container">
+                    <input name="email"type="email" id="correo"class="input"required data-tipo="email" 
+                    placeholder="  email@domain.com">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+
+                <div class="input-container">
+                    <input  name="Empresa" type="text" id="empresa"class="input"required data-tipo="empresa"
+                    placeholder="  Company" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+                <div class="input-container">
+                    <input  name="Marca" type="text" id="marca"class="input"required data-tipo="marca"
+                    placeholder="  Brand" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+                <div class="input-container">
+                    <input  name="Modelo" type="text" id="asunto"class="input"required data-tipo="Modelo"
+                    placeholder="  Model" maxlength="50">
+                    <span class="input-message-error">Field Invalid</span>
+                </div>
+                <div class="textarea-container">   
+                    <textarea name="mensaje" id="mensaje" class="textarea" placeholder=" Message" data-tipo="elmensaje" maxlength="300" required></textarea>
+                    <span class="textarea-message-error">Field Invalid</span>
+                </div>
+
+                    <input type="submit" value="Submit"class="enviar">
+                   <input type="hidden" name="_next" value="https://stimaquinas.com/comercial/imagenes/catalogo_sti_01.pdf">
+                    <input type="hidden" name="_captcha" value="false">
+        
+        </form>
+        </div>
+    </div>
+    </div>
+
+
+  </div>
+  </div>
+
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/app.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
+</body>
+
+</html>

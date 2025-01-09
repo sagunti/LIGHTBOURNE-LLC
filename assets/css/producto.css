@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(233, 233, 233);
+   
+}
+
+.nav-nx{
+    padding-left: 5%;
+}
+.nav-item a{
+    color: aliceblue !important;
+    margin-right: 50px;
+}
+
+
+.modal-content{
+    margin: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   /* margin: 0 auto;*/
+}
+.titulo-contacto{
+    width: 430px;
+    height: 50px;
+
+}
+.titulo-contacto h2{
+    width: 430px;
+    height: 26px;   
+    font-size: 22px;
+}
+.titulo-contacto p{
+    width: 296px;
+    height: 76px;
+    gap: 0px;
+}
+.input-padron, .input{
+    width: 430px;
+    height: 56px;
+    background: #dad9d9;
+    border-radius: 4px;
+    border: transparent;
+}
+.textarea{
+    width: 430px;
+    height: 133px;
+    background: #dad9d9;
+    border-radius: 4px;
+    border: transparent;
+}
+form ::placeholder{
+        font-size: 15px;
+        line-height: 19px;                          
+    }
+.enviar{
+    width: 133px;           
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h3{
+    margin: 40px;
+    text-align: center;
+    color:  #c71315;
+    font-size: 30px;
+}
+
+.row {
+    margin: 20px;
+
+}
+.card-title{
+ 
+    font-size: 20px;
+}

@@ -1,0 +1,165 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.nav-nx{
+    padding-left: 5%;
+}
+.nav-item a{
+    color: rgb(0, 0, 0) !important;
+    margin-right: 50px;
+}
+/*form contacto*/
+
+.modal-content{
+    margin: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.titulo-contacto{
+    width: 430px;
+    height: 50px;
+
+}
+.titulo-contacto h2{
+    width: 430px;
+    height: 26px;   
+    font-size: 22px;
+}
+.titulo-contacto p{
+    width: 296px;
+    height: 76px;
+    gap: 0px;
+}
+.input-padron, .input{
+    width: 430px;
+    height: 56px;
+    background: #dad9d9;
+    border-radius: 4px;
+    border: transparent;
+}
+.textarea{
+    width: 430px;
+    height: 133px;
+    background: #dad9d9;
+    border-radius: 4px;
+    border: transparent;
+}
+form ::placeholder{
+        font-size: 15px;
+        line-height: 19px;                          
+    }
+.enviar{
+    width: 133px;           
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+}*/
+/*aca termina contacto*/
+
+.container, .about-us {
+    border-radius: 100px;
+    
+}
+
+
+.about-us{
+    margin-top: 90px;
+      
+}
+
+.about-us-text{
+    background: url(../img/principal/back-about-us.jpg);   
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: #dad9d9;
+   
+}
+.about-us h2 {
+    text-align: center; 
+    color:  #c71315;
+    margin: 15px 0px;  
+}
+.about-us p{
+    margin: 20px 25px;
+}
+.about-us div img{
+  width: 430px;
+  height: 370px;
+  border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.imagen-us{
+    
+    animation-duration: 10s;
+    animation-name: slidein2;
+}
+h2, h3 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: 1%;
+      width: 100%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+    }
+  }
+  @keyframes slidein2 {
+    from {
+        
+      opacity: 0.1;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+
+.lista{
+    display: flex;
+    justify-content: center;    
+}
+
+.lista li a {
+    color: #ffffff !important;  
+    font-size: 15px;
+}
+.text-center, .text-muted{ color: #ffffff !important;}
+
+@media only screen and (max-width: 1000px) {
+    .row-us{
+        height: 20%;
+        margin-top: 40px;
+            }
+    .imagen-us{
+        visibility: hidden;
+        height: 0px;
+    }
+    .about-us-text{
+        margin-top: -83px;
+        width: auto;
+        margin-bottom: -80px;
+    }
+
+    .about-us-text{
+        background: url(../img/principal/back-about-us.jpg);   
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: #dad9d9;
+       
+    }
+    footer{
+        margin-top: -100px;
+       }
+}
