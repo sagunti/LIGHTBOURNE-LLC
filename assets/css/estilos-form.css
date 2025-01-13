@@ -79,19 +79,13 @@ body {
 /* Home section */
 
 .home {
-    width: 100%;
+   
     height: 20vh;
     background-image: url(../img/principal/navform2.jpeg);
     background-position: center top;
 	background-size:cover;
 }
-.home2 {
-    width: 100%;
-    height: 20vh;
-    background-image: url(../img/principal/nav-abras.jpeg);
-    background-position: center top;
-	background-size:cover;
-}
+
 .home3 {
     width: 100%;
     height: 20vh;
@@ -404,7 +398,7 @@ body {
 }
 
 .contacto{
-    width: 850px;
+    width: auto;
     height: 710px;
     display: flex;
     flex-direction: row;
@@ -426,6 +420,7 @@ body {
     width: 50%;
 }
 form{
+    margin-top: 20px;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -472,26 +467,27 @@ form ::placeholder{
     align-items: center;
     color: #878686;                                 
 }
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
-}
+
 
 
 
 
 @media screen and (max-width:768px){
+    .myP {
+		padding:2%;
+	}
     body {
-        background-image : url(././/tablet.jpg);
         padding: 0 0 0 0;
+    }
+    .home{
+        margin-bottom: 20px;
     }
     .subbody{
         padding: 0px;
     }
     .contacto{
         padding: 0;
-        width: 700px;
+        width: 500px;
         height: 750px;
         display: flex;
         flex-direction: column;
@@ -505,51 +501,48 @@ form ::placeholder{
         align-items: flex-start;
     }
     form{
-        width: 600px;
+        width: 500px;
         align-items:center
+        }
+    .titulo-contacto h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+    .titulo-contacto p{
+            text-align: center;
+            font-size: 16px;
         }
 
     .input-padron, .input{
-        width: 500px;
+        width: 400px;
         }
     .textarea{
-        width: 500px;
+        width: 400px;
         }
 }
 
 @media screen and (max-width:590px){
-html{
-    width:max-content;
-}
-    body {
-        background-image : url(./img/phone.jpg);
-        padding: 0;
-    }
-    .nav{
-        width: auto;
-    }
-    .div contacto{
-        width: auto;
-    }
     .contacto{
-        
-        width: 480px;
-        height: 810px;
+        padding: 0;
+        width: 350px;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
     }
-    .titulo-contacto h2 {
-        font-size: 20px;
-    }
-    .titulo-contacto p{
-        font-size: 16px;
-    }
+ 
     form{
-        width: 250px;
+        width: 350px;
+        align-items:center
         }
-
+   
     .input-padron, .input{
-        width: 250px;
+        width: 300px;
         }
     .textarea{
-        width: 250px;
+        width: 300px;
         }
+
+    
 }

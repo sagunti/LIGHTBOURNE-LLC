@@ -77,3 +77,13 @@
     text-decoration: none;
     color: #c71315;
 }*/
+@media only screen and (max-width: 768px) {
+    .title{
+        margin-left: 5px;
+      
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+ 
+ }

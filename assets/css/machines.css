@@ -40,3 +40,16 @@ a{
     color: red;
     text-decoration: none;
 }
+@media only screen and (max-width: 400px) {
+
+.galeria{
+    gap: 0px;
+    .item{
+        width: 300px;
+        height: auto;
+    }
+}
+.imagenItem{
+    width: 280px;
+}
+}
